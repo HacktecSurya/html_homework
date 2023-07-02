@@ -7,11 +7,11 @@
             text-align:center;
         }
 
-        input {
+        form {
             font-size: x-large;
         }
 
-        label {
+        form {
             font-size: xx-large;
         }
 
@@ -22,32 +22,63 @@
         div {
             font-size: 50%;
         }
+
+        center{font-size: xx-large;}
     </style>
 </head>
 
 <body>
-
+<center>
     <h2>FAVORITE LANGUAGE AND UNFAVORATE</h2>
+</center>
+    <form >
+        <h2>
+            Radio
+        </h2>
 
-    <form action="/action_page.php">
+        <input type="radio" id="Maaz" name="maaz">
+        <label for="Maaz" >Maaz</label> <br>
 
-        <input type="radio" id="tamil" name="fav_language" >
-          <label for="tamil">Tamil</label><br>
-          <input type="radio" id="maths" name="fav_language" value="computer">
-          <label for="computer">Computer</label><br>
-          <input type="radio" id="chemistry" name="fav_language" value="chemistry">
-          <label for="chemistry">Chemistry</label><br>
+        <input type="radio" id="tamil" name="fav_language">
+        <label for="tamil">Tamil</label><br>
+        <input type="radio" id="maths" name="fav_language" value="computer">
+        <label for="computer">Computer</label><br>
+        <input type="radio" id="chemistry" name="fav_language" value="chemistry">
+        <label for="chemistry">Chemistry</label><br>
         <input type="radio" id="physics" name="fav_language" value="physics">
-
-
         <label for="physics">Physics</label><br>
-        <label for="fname">First name:</label><br>
+
+        <h2>
+            checkbox
+        </h2>
+
+        <input type="checkbox" id="mazz" name="fav_friend">
+        <lable for="mazz"> Mazz</lable> <br>
+        <input type="checkbox" id="sakthi" name="fav_friend">
+        <lable for="sakthi"> Sakthi </lable><br>
+        <input type="checkbox" id="mazz" name="fav_friend">
+        <lable for="arun"> Arun</lable> <br>
+        <input type="checkbox" id="sam" name="fav_friend">
+        <lable for="sam"> Sam </lable><br>
+
+
+       
+        <label for="text">First name:</label><br>
         <input type="text" id="fname" name="fname" value="surya"><br>
         <label for="lname">Last name:</label><br>
         <input type="text" id="lname" name="lname" value="mazz"><br>
         <label for="mname">middle name:</label><br>
         <input type="text" id="mname" name="mname" value="sakthi"><br><br><br>
         <div>
+
+
+
+
+
+
+
+
+
             <input type="submit" value="Submit">
         </div>
     </form>
