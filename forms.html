@@ -12,13 +12,21 @@
         }
 
         form {
-            font-size: xx-large;
+            font-size:30%;
         }
 
         form {
             text-align:left;
         }
-
+        pre{
+            font-size: 100%;
+        }
+        textarea{
+            font-size: 30%;
+        }
+        div{
+            text-align: right;
+        }
         center{font-size: xx-large;}
     </style>
 </head>
@@ -30,14 +38,14 @@ FORM
     </h2>
 </center>
     <form >
-        <label for="fname"> Name:</label>
-        <input type="text" name="fname" id="fname"><br>
-        <label for="password"> Password:</label>
-        <input type="text" name="password"  id="pwd"><br>
-
-
-        <label for="file"> Enter Your File</label>
-        <input type="file" name="file" id="file">
+        <fieldset>
+            <legend>Personalia:</legend>
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname" ><br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname"><br><br>
+         
+        
      
         <h2> 
             Which is Youre Favorate Subject
@@ -77,12 +85,59 @@ FORM
         <input type="text" id="lname" name="lname" ><br>
         <label for="mname">What is Youre  Native Country :</label><br>
         <input type="text" id="mname" name="mname" ><br>
-        <pre>
-            <h1>
-                                          <input type="submit" value="Submit" >
-                                          </h1>
-</pre>
+
+        <h1>
+            Which is Youre Favorate Car ?
+        </h1>
+        <label for="cars">:</label><br>
+        <select id="cars" name="cars">
+          <option value="Benz">Benz</option>
+          <option value="Bukati">Bukati</option>
+          <option value="BMW">BMW</option>
+          <option value="Ferrari">Ferrari</option>
+          <option value="Audi">Audi</option>
+          <option value="Tesla">Tesla</option>
+          <option value="Jeep">Jeep</option>
+          <option value="Chrysler">Chrysler</option>
+          <option value="Acura">Acura</option>
+          <option value="Mazda">Maxda</option>
+        </select>
+
+<h1>
+    Which is Youre Favorate Browser
+</h1>
+
+
+         <label for="browsers">Search Your Browsers
+
+         </label><br>
+        <input list="browsers" name="browser">
+        <datalist id="browsers">
+            <option value="Brave">
+          <option value="Internet Explorer">
+          <option value="Firefox">
+          <option value="Chrome">
+          <option value="Opera">
+          <option value="Safari">
+        </datalist><br>
+<h1>
+    Text Area
+</h1>
+        <textarea name="surya" rows="10" cols="30">[computer]
+            One of the earliest and most well-known devices was an abacus. Then in 1822, the father of computers, Charles Babbage began developing what would be the first mechanical computer. And then in 1833 he actually designed an Analytical Engine which was a general-purpose computer.</textarea>
+
+            
     </form>
+      
+   <div>
+        
+            <h1>
+                                          <input type="submit" value="Submit" > <br><br><br>
+                                          <input type="Reset" value="Reset" ></input>
+                                          </h1>
+
+</div>
+    
 
 </body>
 
