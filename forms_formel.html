@@ -2,45 +2,21 @@
 <html>
 
 <head>
-    <style>
-        head {
-            text-align:center;
-        }
+    <link rel="stylesheet" href="form_formel.css">
 
-        form {
-            font-size: x-large;
-        }
-
-        form {
-            font-size:30%;
-        }
-
-        form {
-            text-align:left;
-        }
-        pre{
-            font-size: 100%;
-        }
-        textarea{
-            font-size: 30%;
-        }
-        div{
-            text-align: left;
-        }
-        h6{
-            text-align: right;
-        }
-        center{font-size: xx-large;}
-    </style>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=fire"> 
+  
 </head>
 
 <body>
+    
 <center>
-    <h2>
-FORM
-    </h2>
+    <h4 >
+First Form
+    </h4>
 </center>
-   form >
+
+   
         <fieldset>
             <legend>Personalia:</legend>
             <label for="fname">First name:</label><br>
@@ -63,7 +39,7 @@ FORM
         <input type="radio" id="physics" name="fav_language" value="physics">
         <label for="physics">Physics</label><br>
 
-        <h2>
+        <h2 >
             Whose Your Favorate Friend
         </h2>
 
@@ -77,22 +53,36 @@ FORM
         <lable for="sam"> Sam </lable><br>
         <input type="checkbox" id="kot" name="fav_friend">
         <label for="kot" >Kot</label> <br>
-<h2>
+
+        <h1>
+            Which Is youre Favorate Food
+        </h1>
+        <input type="checkbox" id="Biriyani" name="fav_food">
+        <label for="Biriyani"> Biriyani</label><br>
+        <input type="checkbox" name="fav_food" id="Noodles">
+        <label for="noodles">Noodles</label><br>
+        <input type="checkbox" id="sushi" name="fav_food">
+        <label for="sushi">Shusi</label><br>
+        <input type="checkbox" name="fav_food" id="raman tembura">
+        <label for="raman tembura">Raman Tembura</label><br>
+        <input type="checkbox"Name="fav_food" id="hony">
+        <label for="">Hony Biriyani With Chikkan</label><br>
+<h2 >
     Text
 </h2>
 
        
-        <label for="text">What is Youre Name:</label><br>
+        <label for="text">What is Youre Aim:</label><br>
         <input type="text" id="fname" name="fname" ><br>
         <label for="lname">How Old Are You:</label><br>
         <input type="text" id="lname" name="lname" ><br>
-        <label for="mname">What is Youre  Native Country :</label><br>
+        <label for="mname">What is Youre  Native Country </label><br>
         <input type="text" id="mname" name="mname" ><br>
 
-        <h1>
-            Which is Youre Favorate Car ?
+        <h1 class=>
+     Which is Youre Favorate Car ?
         </h1>
-        <label for="cars">:</label><br>
+        
         <select id="cars" name="cars">
           <option value="Benz">Benz</option>
           <option value="Bukati">Bukati</option>
@@ -106,29 +96,39 @@ FORM
           <option value="Mazda">Maxda</option>
         </select>
 
-<h1>
-    Which is Youre Favorate Browser
-</h1> 
 
+<h1 >
+    Which Is Your Favorate Mobile
+</h1>
 
-         <label for="browsers">Search Your Browsers
+<input list="Mobile" name="Mobile">
+<datalist id="Mobile">
+ <option value="APPLE">
+  <option value="SAMSUNG">
+  <option value="ONE1+">
+  <option value="VIVO">
+  <option value="OPPO">
+  <option value="MI">
+  <option value="MOTO">
+  <option value="TECNO">
+      <option value="REALMI">
+      <option value="IQOO">
+      <option value="INFINIX">
+      <option value="V PHONE">
+      <option value="NOTHING">
+      <option value="GOOGLE PIXEL">
+      </datalist>
 
-         </label><br>
-        <input list="browsers" name="browser">
-        <datalist id="browsers">
-            <option value="Brave">
-          <option value="Internet Explorer">
-          <option value="Firefox">
-          <option value="Chrome">
-          <option value="Opera">
-          <option value="Safari">
-        </datalist><br>
+        
+<br><br>
+   
 <h1>
     Text Area
 </h1>
         <textarea name="surya" rows="10" cols="30">[computer]
             One of the earliest and most well-known devices was an abacus. Then in 1822, the father of computers, Charles Babbage began developing what would be the first mechanical computer. And then in 1833 he actually designed an Analytical Engine which was a general-purpose computer.</textarea>
 
+</fieldset>
             
     </form>
       
@@ -136,10 +136,8 @@ FORM
                                          <h6> <input type="Reset" value="Reset" ></input>
                                           </h6>
                                           <div>
-        
-            
                                             <input type="submit" value="Submit" > 
-              </div>
+                                            </div>
 
 
     
