@@ -1,17 +1,5 @@
-h1.hidden {
-  display: none;
+body {
+  background-color: rgb(10, 37, 37);
 }
 
 
-p{
-  background-color: antiquewhite;
-  width: 300px;
-  
-}
-
-.display{
-  display: none;
-}
-.display:hover{
-  color: bisque;
-  display: block;
